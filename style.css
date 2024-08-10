@@ -1,0 +1,81 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* header */
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 10%;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+}
+
+header .hola {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 4vh;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* perfil */
+
+#perfil {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 6vh 10%;
+    margin: 0;
+    color: #333;
+}
+
+.fotodeperfil {
+    width: 80%;
+    border-radius: 20%;
+    margin: 0 auto;
+}
+
+/* trabajos */
+
+#trabajos {
+    background-color: #535353;
+    color: white;
+    padding: 6vh 10%;
+    margin: 0;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4vh;
+    margin-top: 6vh;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#ilustraciones {
+    padding: 6vh 10%;
+    margin: 0;
+    color: #333;
+}
