@@ -7,6 +7,8 @@
     <title>Vale B</title>
     <link rel="icon" href="img/icono.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
@@ -21,44 +23,79 @@
         </nav>
     </header>
 
-        <div id="perfil">
-            <div class="introduccion">
+    <div class="container-fluid">
+        <div class="row" id="perfil">
+            <div class="col" id="introduccion">
                 <h1>Valentina Billalvilla</h1>
                 <h3>De Montevideo, Uruguay. Curiosa, apasionada y creativa. </h3><br>
-                <p>Mis intereses principales son el diseño gráfico para redes sociales, la creación de contenido y la ilustración. Recientemente también empecé a interesarme por el diseño UX/UI y el diseño web.</p><br>
-                <p>Me encanta crear cosas, transitar los procesos y ver como se transforma la materia prima para resolver un problema. Desde cosas simples como la cocina o el dibujo, hasta proyectos más complejos como el branding o el desarrollo completo de sitios web. ¡Siempre estoy haciendo algo!</p>
+                <p>Mis intereses principales son el diseño gráfico para redes sociales, la creación de contenido y la
+                    ilustración. Recientemente también empecé a interesarme por el diseño UX/UI y el diseño web.</p><br>
+                <p>Me encanta crear cosas, transitar los procesos y ver como se transforma la materia prima para
+                    resolver un
+                    problema. Desde cosas simples como la cocina o el dibujo, hasta proyectos más complejos como el
+                    branding o
+                    el desarrollo completo de sitios web. ¡Siempre estoy haciendo algo!</p>
             </div>
-            <img src="img/valentina.jpg" alt="foto de valentina" class="fotodeperfil">
+            <img src="img/valentina.jpg" alt="foto de valentina" class="img-fluid fotodeperfil">
+        </div>
+    </div>
+
+    <div class="container-fluid" id="trabajos">
+        <h1>Algunos de mis trabajos como diseñadora gráfica:</h1>
+        <p>Durante la pandemia tuve la oportunidad de trabajar, de forma remota, para una agencia de publicidad
+            mexicana.</p>
+
+        <div class="row g-5 galeria">
+            <div class="col-sm col-md-4">
+                <a href="https://www.behance.net/gallery/134463885/Social-Media-Design-Fashion-Brides" 
+                target="_blank"><img class="img-fluid" src="img/lovely.jpg" alt="lovely"></a>
+            </div>  
+            <div class="col-sm col-md-4">
+                <a href="https://www.behance.net/gallery/200328525/Social-Media-Design-Hotel-Resort"
+                target="_blank"><img class="img-fluid" src="img/hacienda.png" alt="hacienda"></a>
+            </div>
+            <div class="col-sm col-md-4">
+                <a href="https://www.behance.net/gallery/134519165/Mixed-Media-Menu-Breakfast-Brunch-Restaurant"
+                target="_blank"><img class="img-fluid" src="img/velut.jpg" alt="velut"></a>
+            </div>
         </div>
 
-        <div id="trabajos">
-            <h1>Algunos de mis trabajos como diseñadora gráfica:</h1>
-            <p>Durante la pandemia tuve la oportunidad de trabajar, de forma remota, para una agencia de publicidad mexicana.</p>
-            <div class="galeria">
-                <a href="https://www.behance.net/gallery/134463885/Social-Media-Design-Fashion-Brides" target="_blank"><img
-                        src="img/lovely.jpg" alt="lovely"></a>
-                <a href="https://www.behance.net/gallery/200328525/Social-Media-Design-Hotel-Resort" target="_blank"><img
-                        src="img/hacienda.png" alt="hacienda"></a>
-                <a href="https://www.behance.net/gallery/134519165/Mixed-Media-Menu-Breakfast-Brunch-Restaurant"
-                    target="_blank"><img src="img/velut.jpg" alt="velut"></a>
-                <a href="https://www.behance.net/gallery/200188857/Social-Media-Design-Pet-Grooming" target="_blank"><img
-                        src="img/pekspa.png" alt="pekspa"></a>
-                <a href="https://www.behance.net/gallery/199901857/Social-Media-Design-Night-Bar" target="_blank"><img
-                        src="img/buenavida.png" alt="buena vida"></a>
-                <a href="https://www.behance.net/gallery/134474187/Social-Media-Design-Hearing-Devices" target="_blank"><img
-                        src="img/audiofon.jpg" alt="audiofon"></a>
+        <div class="row galeria">
+            <div class="col-sm col-md-4">
+                <a href="https://www.behance.net/gallery/200188857/Social-Media-Design-Pet-Grooming"
+                target="_blank"><img class="img-fluid" src="img/pekspa.png" alt="pekspa"></a>
+            </div>
+            <div class="col-sm col-md-4">
+                <a href="https://www.behance.net/gallery/199901857/Social-Media-Design-Night-Bar" 
+                target="_blank"><img class="img-fluid" src="img/buenavida.png" alt="buena vida"></a>
+            </div>
+            <div class="col-sm col-md-4">
+                <a href="https://www.behance.net/gallery/134474187/Social-Media-Design-Hearing-Devices"
+                target="_blank"><img class="img-fluid" src="img/audiofon.jpg" alt="audiofon"></a>
             </div>
         </div>
-        
-        <div id="ilustraciones">
-            <h1>Mi proyecto de ilustración personal:</h1>
-            <p>En mi tiempo libre me gusta ilustrar stickers inspirados en la vida cotidiana.</p>
-            <div class="galeria">
-                <img src="img/bt1.jpg" alt="brunch time 1">
-                <img src="img/bt2.jpg" alt="brunch time 2">
-                <img src="img/bt3.jpg" alt="brunch time 3">
+
+    </div>
+
+    <div class="container-fluid" id="ilustraciones">
+        <h1>Mi proyecto de ilustración personal:</h1>
+        <p>En mi tiempo libre me gusta ilustrar stickers inspirados en la vida cotidiana.</p>
+        <div class="row galeria">
+            <div class="col-sm col-md-4">
+                <img class="img-fluid" src="img/bt1.jpg" alt="brunch time 1">
+            </div>
+            <div class="col-sm col-md-4">
+                <img class="img-fluid" src="img/bt2.jpg" alt="brunch time 2">
+            </div>
+            <div class="col-sm col-md-4">
+                <img class="img-fluid" src="img/bt3.jpg" alt="brunch time 3">
             </div>
         </div>
-    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
